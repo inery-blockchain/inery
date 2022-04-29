@@ -21,15 +21,15 @@ Some of the groundbreaking features of INERY include:
 
 ## Blockchain Explorer
 
-[testnet.ine.io](https://explorer.inery.io/)
+[explorer.inery.io](https://explorer.inery.io/)
 
 ## Supported Operating Systems
 
 INERY currently supports the following operating systems:  
 
-3. Ubuntu 16.04
-4. Ubuntu 18.04
-
+1. Ubuntu 16.04
+2. Ubuntu 18.04
+3. Ubuntu 20.04
 
 ---
 
