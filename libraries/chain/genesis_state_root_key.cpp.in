@@ -1,0 +1,7 @@
+#include <inery/chain/genesis_state.hpp>
+
+namespace inery { namespace chain {
+
+const string genesis_state::inery_root_key = "${INERY_ROOT_KEY}";
+
+} } // namespace inery::chain

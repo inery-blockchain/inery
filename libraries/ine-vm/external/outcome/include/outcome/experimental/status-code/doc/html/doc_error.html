@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>
+doc_error
+</title>
+</head>
+<body>
+
+<h1>Header file <code>error.hpp</code></h1>
+<p><span id="standardese-error-hpp"></span></p>
+<pre><code class="standardese-language-cpp"><span class="pre">#include</span> <span class="pre">&quot;</span><a href="doc_errored_status_code.html#standardese-errored_status_code-hpp"><span class="typ dec var fun">errored_status_code.hpp</span></a><span class="pre">&quot;</span>
+
+<span class="pre">#include</span> <span class="pre">&quot;</span><a href="doc_system_code.html#standardese-system_code-hpp"><span class="typ dec var fun">system_code.hpp</span></a><span class="pre">&quot;</span>
+
+<span class="kwd">namespace</span> <span class="typ dec var fun">system_error2</span>
+<span class="pun">{</span>
+    <span class="kwd">using</span> <a href="doc_error.html#standardese-system_error2__error"><span class="typ dec var fun">error</span></a> <span class="pun">=</span> <span class="typ dec var fun">errored_status_code</span><span class="pun">&lt;</span>erased&lt;system_code::value_type&gt;<span class="pun">&gt;</span><span class="pun">;</span>
+<span class="pun">}</span>
+</code></pre>
+
+<p><span id="standardese-system_error2"></span></p>
+<h3>Type alias <code>system_error2::error</code></h3>
+<p><span id="standardese-system_error2__error"></span></p>
+<pre><code class="standardese-language-cpp"><span class="kwd">using</span> <span class="typ dec var fun">error</span> <span class="pun">=</span> <span class="typ dec var fun">errored_status_code</span><span class="pun">&lt;</span>erased&lt;system_code::value_type&gt;<span class="pun">&gt;</span><span class="pun">;</span>
+</code></pre>
+
+<p>An erased <code>system_code</code> which is always a failure. The closest equivalent to <code>std::error_code</code>, except it cannot be null and cannot be modified.</p>
+<p>This refines <code>system_code</code> into an <code>error</code> object meeting the requirements of <a href="https://wg21.link/P0709">P0709 Zero-overhead deterministic exceptions</a>.</p>
+<p>Differences from <code>system_code</code>:</p>
+<ul>
+<li>
+<p>Always a failure (this is checked at construction, and if not the case, the program is terminated as this is a logic error)</p>
+</li>
+<li>
+<p>No default construction.</p>
+</li>
+<li>
+<p>No empty state possible.</p>
+</li>
+<li>
+<p>Is immutable.</p>
+</li>
+</ul>
+<p>As with <code>system_code</code>, it remains guaranteed to be two CPU registers in size, and move relocating.</p>
+<hr /></body>
+</html>

@@ -1,0 +1,73 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_53e68/fast"
+/usr/bin/make -f CMakeFiles/cmTC_53e68.dir/build.make CMakeFiles/cmTC_53e68.dir/build
+make[1]: Entering directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_53e68.dir/CheckSymbolExists.c.o
+/usr/bin/clang    -o CMakeFiles/cmTC_53e68.dir/CheckSymbolExists.c.o   -c /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_53e68
+/home/dusan/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53e68.dir/link.txt --verbose=1
+/usr/bin/clang      CMakeFiles/cmTC_53e68.dir/CheckSymbolExists.c.o  -o cmTC_53e68 
+CMakeFiles/cmTC_53e68.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x19): undefined reference to `pthread_create'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTC_53e68.dir/build.make:86: recipe for target 'cmTC_53e68' failed
+make[1]: *** [cmTC_53e68] Error 1
+make[1]: Leaving directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_53e68/fast' failed
+make: *** [cmTC_53e68/fast] Error 2
+
+File /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test COMPILER_HAS_SAFESTACK failed with the following output:
+Change Dir: /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8600b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8600b.dir/build.make CMakeFiles/cmTC_8600b.dir/build
+make[1]: Entering directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8600b.dir/src.cxx.o
+/usr/bin/clang++    -Wall -Wno-invalid-partial-specialization -DCOMPILER_HAS_SAFESTACK -fsanitize=safestack   -o CMakeFiles/cmTC_8600b.dir/src.cxx.o -c /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unsupported argument 'safestack' to option 'fsanitize='
+CMakeFiles/cmTC_8600b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8600b.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_8600b.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_8600b/fast' failed
+make: *** [cmTC_8600b/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Determining if the function memset_s exists failed with the following output:
+Change Dir: /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c8645/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c8645.dir/build.make CMakeFiles/cmTC_c8645.dir/build
+make[1]: Entering directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c8645.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -pedantic -Wall -Wextra -Werror -Wno-format-zero-length -Wno-implicit-fallthrough -Wformat -Wformat-security -fstack-protector-all -DCHECK_FUNCTION_EXISTS=memset_s   -o CMakeFiles/cmTC_c8645.dir/CheckFunctionExists.c.o   -c /home/dusan/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c8645
+/home/dusan/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8645.dir/link.txt --verbose=1
+/usr/bin/clang  -pedantic -Wall -Wextra -Werror -Wno-format-zero-length -Wno-implicit-fallthrough -Wformat -Wformat-security -fstack-protector-all -DCHECK_FUNCTION_EXISTS=memset_s    -rdynamic CMakeFiles/cmTC_c8645.dir/CheckFunctionExists.c.o  -o cmTC_c8645 
+CMakeFiles/cmTC_c8645.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x24): undefined reference to `memset_s'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTC_c8645.dir/build.make:86: recipe for target 'cmTC_c8645' failed
+make[1]: *** [cmTC_c8645] Error 1
+make[1]: Leaving directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_c8645/fast' failed
+make: *** [cmTC_c8645/fast] Error 2
+
+

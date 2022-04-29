@@ -1,0 +1,4 @@
+// Note the second line of this file must ALWAYS be the git SHA, third line ALWAYS the git SHA update time
+#define QUICKCPPLIB_PREVIOUS_COMMIT_REF    01e18d3e6549400646f41b79de318994eac95f25
+#define QUICKCPPLIB_PREVIOUS_COMMIT_DATE   "2019-02-11 10:00:33 +00:00"
+#define QUICKCPPLIB_PREVIOUS_COMMIT_UNIQUE 01e18d3e

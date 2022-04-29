@@ -1,0 +1,1001 @@
+The system is: Linux - 5.4.0-107-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/clang 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/home/dusan/Desktop/inery/build/CMakeFiles/3.13.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/clang++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/home/dusan/Desktop/inery/build/CMakeFiles/3.13.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_24cb1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_24cb1.dir/build.make CMakeFiles/cmTC_24cb1.dir/build
+make[1]: Entering directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_24cb1.dir/testCCompiler.c.o
+/usr/bin/clang    -o CMakeFiles/cmTC_24cb1.dir/testCCompiler.c.o   -c /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_24cb1
+/home/dusan/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24cb1.dir/link.txt --verbose=1
+/usr/bin/clang      CMakeFiles/cmTC_24cb1.dir/testCCompiler.c.o  -o cmTC_24cb1 
+make[1]: Leaving directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6e50b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6e50b.dir/build.make CMakeFiles/cmTC_6e50b.dir/build
+make[1]: Entering directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6e50b.dir/CMakeCCompilerABI.c.o
+/usr/bin/clang    -o CMakeFiles/cmTC_6e50b.dir/CMakeCCompilerABI.c.o   -c /home/dusan/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_6e50b
+/home/dusan/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e50b.dir/link.txt --verbose=1
+/usr/bin/clang     -v CMakeFiles/cmTC_6e50b.dir/CMakeCCompilerABI.c.o  -o cmTC_6e50b 
+clang version 6.0.0-1ubuntu2 (tags/RELEASE_600/final)
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/8
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.5.0
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/8
+Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/8
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.5.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_6e50b /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../.. -L/usr/lib/llvm-6.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_6e50b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_6e50b/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_6e50b.dir/build.make CMakeFiles/cmTC_6e50b.dir/build]
+  ignore line: [make[1]: Entering directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_6e50b.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/clang    -o CMakeFiles/cmTC_6e50b.dir/CMakeCCompilerABI.c.o   -c /home/dusan/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_6e50b]
+  ignore line: [/home/dusan/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e50b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang     -v CMakeFiles/cmTC_6e50b.dir/CMakeCCompilerABI.c.o  -o cmTC_6e50b ]
+  ignore line: [clang version 6.0.0-1ubuntu2 (tags/RELEASE_600/final)]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/bin]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/8]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.5.0]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/8]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/8]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.5.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8]
+  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_6e50b /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../.. -L/usr/lib/llvm-6.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_6e50b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_6e50b] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o] ==> ignore
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../..] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../..]
+    arg [-L/usr/lib/llvm-6.0/bin/../lib] ==> dir [/usr/lib/llvm-6.0/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_6e50b.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0] ==> [/usr/lib/gcc/x86_64-linux-gnu/7.5.0]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/lib/llvm-6.0/bin/../lib] ==> [/usr/lib/llvm-6.0/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7.5.0;/usr/lib/x86_64-linux-gnu;/lib/x86_64-linux-gnu;/lib64;/usr/lib;/usr/lib/llvm-6.0/lib;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c86d9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c86d9.dir/build.make CMakeFiles/cmTC_c86d9.dir/build
+make[1]: Entering directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c86d9.dir/feature_tests.c.o
+/usr/bin/clang   -std=c11 -o CMakeFiles/cmTC_c86d9.dir/feature_tests.c.o   -c /home/dusan/Desktop/inery/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_c86d9
+/home/dusan/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c86d9.dir/link.txt --verbose=1
+/usr/bin/clang      CMakeFiles/cmTC_c86d9.dir/feature_tests.c.o  -o cmTC_c86d9 
+make[1]: Leaving directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5b522/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5b522.dir/build.make CMakeFiles/cmTC_5b522.dir/build
+make[1]: Entering directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b522.dir/feature_tests.c.o
+/usr/bin/clang   -std=c99 -o CMakeFiles/cmTC_5b522.dir/feature_tests.c.o   -c /home/dusan/Desktop/inery/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_5b522
+/home/dusan/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b522.dir/link.txt --verbose=1
+/usr/bin/clang      CMakeFiles/cmTC_5b522.dir/feature_tests.c.o  -o cmTC_5b522 
+make[1]: Leaving directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e7caf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e7caf.dir/build.make CMakeFiles/cmTC_e7caf.dir/build
+make[1]: Entering directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e7caf.dir/feature_tests.c.o
+/usr/bin/clang   -std=c90 -o CMakeFiles/cmTC_e7caf.dir/feature_tests.c.o   -c /home/dusan/Desktop/inery/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e7caf
+/home/dusan/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7caf.dir/link.txt --verbose=1
+/usr/bin/clang      CMakeFiles/cmTC_e7caf.dir/feature_tests.c.o  -o cmTC_e7caf 
+make[1]: Leaving directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_95e9e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_95e9e.dir/build.make CMakeFiles/cmTC_95e9e.dir/build
+make[1]: Entering directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_95e9e.dir/testCXXCompiler.cxx.o
+/usr/bin/clang++     -o CMakeFiles/cmTC_95e9e.dir/testCXXCompiler.cxx.o -c /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_95e9e
+/home/dusan/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95e9e.dir/link.txt --verbose=1
+/usr/bin/clang++       CMakeFiles/cmTC_95e9e.dir/testCXXCompiler.cxx.o  -o cmTC_95e9e 
+make[1]: Leaving directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3d0cb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3d0cb.dir/build.make CMakeFiles/cmTC_3d0cb.dir/build
+make[1]: Entering directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3d0cb.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/clang++     -o CMakeFiles/cmTC_3d0cb.dir/CMakeCXXCompilerABI.cpp.o -c /home/dusan/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_3d0cb
+/home/dusan/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d0cb.dir/link.txt --verbose=1
+/usr/bin/clang++      -v CMakeFiles/cmTC_3d0cb.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_3d0cb 
+clang version 6.0.0-1ubuntu2 (tags/RELEASE_600/final)
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/8
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.5.0
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/8
+Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/8
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.5.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_3d0cb /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../.. -L/usr/lib/llvm-6.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_3d0cb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_3d0cb/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_3d0cb.dir/build.make CMakeFiles/cmTC_3d0cb.dir/build]
+  ignore line: [make[1]: Entering directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_3d0cb.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/clang++     -o CMakeFiles/cmTC_3d0cb.dir/CMakeCXXCompilerABI.cpp.o -c /home/dusan/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_3d0cb]
+  ignore line: [/home/dusan/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d0cb.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang++      -v CMakeFiles/cmTC_3d0cb.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_3d0cb ]
+  ignore line: [clang version 6.0.0-1ubuntu2 (tags/RELEASE_600/final)]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/bin]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/8]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.5.0]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/8]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/8]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.5.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8]
+  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_3d0cb /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../.. -L/usr/lib/llvm-6.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_3d0cb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_3d0cb] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o] ==> ignore
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../..] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../..]
+    arg [-L/usr/lib/llvm-6.0/bin/../lib] ==> dir [/usr/lib/llvm-6.0/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_3d0cb.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0] ==> [/usr/lib/gcc/x86_64-linux-gnu/7.5.0]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/lib/llvm-6.0/bin/../lib] ==> [/usr/lib/llvm-6.0/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7.5.0;/usr/lib/x86_64-linux-gnu;/lib/x86_64-linux-gnu;/lib64;/usr/lib;/usr/lib/llvm-6.0/lib;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++2a] compiler features compiled with the following output:
+Change Dir: /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5f6dd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5f6dd.dir/build.make CMakeFiles/cmTC_5f6dd.dir/build
+make[1]: Entering directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5f6dd.dir/feature_tests.cxx.o
+/usr/bin/clang++    -std=c++2a -o CMakeFiles/cmTC_5f6dd.dir/feature_tests.cxx.o -c /home/dusan/Desktop/inery/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5f6dd
+/home/dusan/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f6dd.dir/link.txt --verbose=1
+/usr/bin/clang++       CMakeFiles/cmTC_5f6dd.dir/feature_tests.cxx.o  -o cmTC_5f6dd 
+make[1]: Leaving directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++17] compiler features compiled with the following output:
+Change Dir: /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0815d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0815d.dir/build.make CMakeFiles/cmTC_0815d.dir/build
+make[1]: Entering directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0815d.dir/feature_tests.cxx.o
+/usr/bin/clang++    -std=c++17 -o CMakeFiles/cmTC_0815d.dir/feature_tests.cxx.o -c /home/dusan/Desktop/inery/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0815d
+/home/dusan/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0815d.dir/link.txt --verbose=1
+/usr/bin/clang++       CMakeFiles/cmTC_0815d.dir/feature_tests.cxx.o  -o cmTC_0815d 
+make[1]: Leaving directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e494d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e494d.dir/build.make CMakeFiles/cmTC_e494d.dir/build
+make[1]: Entering directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e494d.dir/feature_tests.cxx.o
+/usr/bin/clang++    -std=c++14 -o CMakeFiles/cmTC_e494d.dir/feature_tests.cxx.o -c /home/dusan/Desktop/inery/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e494d
+/home/dusan/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e494d.dir/link.txt --verbose=1
+/usr/bin/clang++       CMakeFiles/cmTC_e494d.dir/feature_tests.cxx.o  -o cmTC_e494d 
+make[1]: Leaving directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8700c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8700c.dir/build.make CMakeFiles/cmTC_8700c.dir/build
+make[1]: Entering directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8700c.dir/feature_tests.cxx.o
+/usr/bin/clang++    -std=c++11 -o CMakeFiles/cmTC_8700c.dir/feature_tests.cxx.o -c /home/dusan/Desktop/inery/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_8700c
+/home/dusan/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8700c.dir/link.txt --verbose=1
+/usr/bin/clang++       CMakeFiles/cmTC_8700c.dir/feature_tests.cxx.o  -o cmTC_8700c 
+make[1]: Leaving directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e09e0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e09e0.dir/build.make CMakeFiles/cmTC_e09e0.dir/build
+make[1]: Entering directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e09e0.dir/feature_tests.cxx.o
+/usr/bin/clang++    -std=c++98 -o CMakeFiles/cmTC_e09e0.dir/feature_tests.cxx.o -c /home/dusan/Desktop/inery/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e09e0
+/home/dusan/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e09e0.dir/link.txt --verbose=1
+/usr/bin/clang++       CMakeFiles/cmTC_e09e0.dir/feature_tests.cxx.o  -o cmTC_e09e0 
+make[1]: Leaving directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9237a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9237a.dir/build.make CMakeFiles/cmTC_9237a.dir/build
+make[1]: Entering directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9237a.dir/CheckIncludeFile.c.o
+/usr/bin/clang    -o CMakeFiles/cmTC_9237a.dir/CheckIncludeFile.c.o   -c /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9237a
+/home/dusan/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9237a.dir/link.txt --verbose=1
+/usr/bin/clang      CMakeFiles/cmTC_9237a.dir/CheckIncludeFile.c.o  -o cmTC_9237a 
+make[1]: Leaving directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+
+
+Checking whether the ASM-LLVMWAR compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+g++ (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
+Copyright (C) 2017 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Determining if the include file alloca.h exists passed with the following output:
+Change Dir: /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0859a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0859a.dir/build.make CMakeFiles/cmTC_0859a.dir/build
+make[1]: Entering directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0859a.dir/CheckIncludeFile.c.o
+/usr/bin/clang    -o CMakeFiles/cmTC_0859a.dir/CheckIncludeFile.c.o   -c /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0859a
+/home/dusan/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0859a.dir/link.txt --verbose=1
+/usr/bin/clang      CMakeFiles/cmTC_0859a.dir/CheckIncludeFile.c.o  -o cmTC_0859a 
+make[1]: Leaving directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_82053/fast"
+/usr/bin/make -f CMakeFiles/cmTC_82053.dir/build.make CMakeFiles/cmTC_82053.dir/build
+make[1]: Entering directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82053.dir/CheckIncludeFile.c.o
+/usr/bin/clang    -o CMakeFiles/cmTC_82053.dir/CheckIncludeFile.c.o   -c /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_82053
+/home/dusan/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82053.dir/link.txt --verbose=1
+/usr/bin/clang      CMakeFiles/cmTC_82053.dir/CheckIncludeFile.c.o  -o cmTC_82053 
+make[1]: Leaving directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the snprintf exist passed with the following output:
+Change Dir: /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aa91c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aa91c.dir/build.make CMakeFiles/cmTC_aa91c.dir/build
+make[1]: Entering directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aa91c.dir/CheckSymbolExists.c.o
+/usr/bin/clang    -o CMakeFiles/cmTC_aa91c.dir/CheckSymbolExists.c.o   -c /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_aa91c
+/home/dusan/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa91c.dir/link.txt --verbose=1
+/usr/bin/clang      CMakeFiles/cmTC_aa91c.dir/CheckSymbolExists.c.o  -o cmTC_aa91c 
+make[1]: Leaving directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+
+File /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sysconf exist passed with the following output:
+Change Dir: /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8df57/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8df57.dir/build.make CMakeFiles/cmTC_8df57.dir/build
+make[1]: Entering directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8df57.dir/CheckSymbolExists.c.o
+/usr/bin/clang    -o CMakeFiles/cmTC_8df57.dir/CheckSymbolExists.c.o   -c /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8df57
+/home/dusan/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8df57.dir/link.txt --verbose=1
+/usr/bin/clang      CMakeFiles/cmTC_8df57.dir/CheckSymbolExists.c.o  -o cmTC_8df57 
+make[1]: Leaving directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+
+File /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strcasecmp exist passed with the following output:
+Change Dir: /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7cac8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7cac8.dir/build.make CMakeFiles/cmTC_7cac8.dir/build
+make[1]: Entering directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7cac8.dir/CheckSymbolExists.c.o
+/usr/bin/clang    -o CMakeFiles/cmTC_7cac8.dir/CheckSymbolExists.c.o   -c /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7cac8
+/home/dusan/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cac8.dir/link.txt --verbose=1
+/usr/bin/clang      CMakeFiles/cmTC_7cac8.dir/CheckSymbolExists.c.o  -o cmTC_7cac8 
+make[1]: Leaving directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+
+File /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasecmp
+  return ((int*)(&strcasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dac14/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dac14.dir/build.make CMakeFiles/cmTC_dac14.dir/build
+make[1]: Entering directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dac14.dir/CheckIncludeFile.c.o
+/usr/bin/clang    -o CMakeFiles/cmTC_dac14.dir/CheckIncludeFile.c.o   -c /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_dac14
+/home/dusan/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dac14.dir/link.txt --verbose=1
+/usr/bin/clang      CMakeFiles/cmTC_dac14.dir/CheckIncludeFile.c.o  -o cmTC_dac14 
+make[1]: Leaving directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_be4f0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_be4f0.dir/build.make CMakeFiles/cmTC_be4f0.dir/build
+make[1]: Entering directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_be4f0.dir/CheckIncludeFile.c.o
+/usr/bin/clang    -o CMakeFiles/cmTC_be4f0.dir/CheckIncludeFile.c.o   -c /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_be4f0
+/home/dusan/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be4f0.dir/link.txt --verbose=1
+/usr/bin/clang      CMakeFiles/cmTC_be4f0.dir/CheckIncludeFile.c.o  -o cmTC_be4f0 
+make[1]: Leaving directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0aa14/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0aa14.dir/build.make CMakeFiles/cmTC_0aa14.dir/build
+make[1]: Entering directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0aa14.dir/CheckIncludeFile.c.o
+/usr/bin/clang    -o CMakeFiles/cmTC_0aa14.dir/CheckIncludeFile.c.o   -c /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0aa14
+/home/dusan/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0aa14.dir/link.txt --verbose=1
+/usr/bin/clang      CMakeFiles/cmTC_0aa14.dir/CheckIncludeFile.c.o  -o cmTC_0aa14 
+make[1]: Leaving directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f4c5b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f4c5b.dir/build.make CMakeFiles/cmTC_f4c5b.dir/build
+make[1]: Entering directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f4c5b.dir/SSIZE_T.c.o
+/usr/bin/clang    -o CMakeFiles/cmTC_f4c5b.dir/SSIZE_T.c.o   -c /home/dusan/Desktop/inery/build/CMakeFiles/CheckTypeSize/SSIZE_T.c
+Linking C executable cmTC_f4c5b
+/home/dusan/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4c5b.dir/link.txt --verbose=1
+/usr/bin/clang      -rdynamic CMakeFiles/cmTC_f4c5b.dir/SSIZE_T.c.o  -o cmTC_f4c5b 
+make[1]: Leaving directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a89aa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a89aa.dir/build.make CMakeFiles/cmTC_a89aa.dir/build
+make[1]: Entering directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a89aa.dir/SIZEOF_SIZE_T.c.o
+/usr/bin/clang    -o CMakeFiles/cmTC_a89aa.dir/SIZEOF_SIZE_T.c.o   -c /home/dusan/Desktop/inery/build/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+Linking C executable cmTC_a89aa
+/home/dusan/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a89aa.dir/link.txt --verbose=1
+/usr/bin/clang      -rdynamic CMakeFiles/cmTC_a89aa.dir/SIZEOF_SIZE_T.c.o  -o cmTC_a89aa 
+make[1]: Leaving directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test COMPILER_HAS_UBSAN succeeded with the following output:
+Change Dir: /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aa27e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aa27e.dir/build.make CMakeFiles/cmTC_aa27e.dir/build
+make[1]: Entering directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_aa27e.dir/src.cxx.o
+/usr/bin/clang++    -Wall -Wno-invalid-partial-specialization -DCOMPILER_HAS_UBSAN -fsanitize=undefined   -o CMakeFiles/cmTC_aa27e.dir/src.cxx.o -c /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_aa27e
+/home/dusan/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa27e.dir/link.txt --verbose=1
+/usr/bin/clang++    -Wall -Wno-invalid-partial-specialization -DCOMPILER_HAS_UBSAN -fsanitize=undefined    -rdynamic CMakeFiles/cmTC_aa27e.dir/src.cxx.o  -o cmTC_aa27e 
+make[1]: Leaving directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_ASAN succeeded with the following output:
+Change Dir: /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f9d8c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f9d8c.dir/build.make CMakeFiles/cmTC_f9d8c.dir/build
+make[1]: Entering directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f9d8c.dir/src.cxx.o
+/usr/bin/clang++    -Wall -Wno-invalid-partial-specialization -DCOMPILER_HAS_ASAN -fsanitize=address   -o CMakeFiles/cmTC_f9d8c.dir/src.cxx.o -c /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f9d8c
+/home/dusan/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9d8c.dir/link.txt --verbose=1
+/usr/bin/clang++    -Wall -Wno-invalid-partial-specialization -DCOMPILER_HAS_ASAN -fsanitize=address    -rdynamic CMakeFiles/cmTC_f9d8c.dir/src.cxx.o  -o cmTC_f9d8c 
+make[1]: Leaving directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_MSAN succeeded with the following output:
+Change Dir: /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_33b0a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_33b0a.dir/build.make CMakeFiles/cmTC_33b0a.dir/build
+make[1]: Entering directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_33b0a.dir/src.cxx.o
+/usr/bin/clang++    -Wall -Wno-invalid-partial-specialization -DCOMPILER_HAS_MSAN -fsanitize=memory   -o CMakeFiles/cmTC_33b0a.dir/src.cxx.o -c /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_33b0a
+/home/dusan/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33b0a.dir/link.txt --verbose=1
+/usr/bin/clang++    -Wall -Wno-invalid-partial-specialization -DCOMPILER_HAS_MSAN -fsanitize=memory    -rdynamic CMakeFiles/cmTC_33b0a.dir/src.cxx.o  -o cmTC_33b0a 
+make[1]: Leaving directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_TSAN succeeded with the following output:
+Change Dir: /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6f592/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6f592.dir/build.make CMakeFiles/cmTC_6f592.dir/build
+make[1]: Entering directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6f592.dir/src.cxx.o
+/usr/bin/clang++    -Wall -Wno-invalid-partial-specialization -DCOMPILER_HAS_TSAN -fsanitize=thread   -o CMakeFiles/cmTC_6f592.dir/src.cxx.o -c /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6f592
+/home/dusan/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f592.dir/link.txt --verbose=1
+/usr/bin/clang++    -Wall -Wno-invalid-partial-specialization -DCOMPILER_HAS_TSAN -fsanitize=thread    -rdynamic CMakeFiles/cmTC_6f592.dir/src.cxx.o  -o cmTC_6f592 
+make[1]: Leaving directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_STACK_PROTECTOR succeeded with the following output:
+Change Dir: /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_20f92/fast"
+/usr/bin/make -f CMakeFiles/cmTC_20f92.dir/build.make CMakeFiles/cmTC_20f92.dir/build
+make[1]: Entering directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_20f92.dir/src.cxx.o
+/usr/bin/clang++    -Wall -Wno-invalid-partial-specialization -DCOMPILER_HAS_STACK_PROTECTOR -fstack-protector-strong   -o CMakeFiles/cmTC_20f92.dir/src.cxx.o -c /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_20f92
+/home/dusan/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20f92.dir/link.txt --verbose=1
+/usr/bin/clang++    -Wall -Wno-invalid-partial-specialization -DCOMPILER_HAS_STACK_PROTECTOR -fstack-protector-strong    -rdynamic CMakeFiles/cmTC_20f92.dir/src.cxx.o  -o cmTC_20f92 
+make[1]: Leaving directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if the function explicit_bzero exists passed with the following output:
+Change Dir: /home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fff11/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fff11.dir/build.make CMakeFiles/cmTC_fff11.dir/build
+make[1]: Entering directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fff11.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -pedantic -Wall -Wextra -Werror -Wno-format-zero-length -Wno-implicit-fallthrough -Wformat -Wformat-security -fstack-protector-all -DCHECK_FUNCTION_EXISTS=explicit_bzero   -o CMakeFiles/cmTC_fff11.dir/CheckFunctionExists.c.o   -c /home/dusan/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fff11
+/home/dusan/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fff11.dir/link.txt --verbose=1
+/usr/bin/clang  -pedantic -Wall -Wextra -Werror -Wno-format-zero-length -Wno-implicit-fallthrough -Wformat -Wformat-security -fstack-protector-all -DCHECK_FUNCTION_EXISTS=explicit_bzero    -rdynamic CMakeFiles/cmTC_fff11.dir/CheckFunctionExists.c.o  -o cmTC_fff11 
+make[1]: Leaving directory '/home/dusan/Desktop/inery/build/CMakeFiles/CMakeTmp'
+
+

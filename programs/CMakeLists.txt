@@ -1,0 +1,5 @@
+add_subdirectory( nodine )
+add_subdirectory( cline )
+add_subdirectory( kined )
+add_subdirectory( inery-launcher )
+add_subdirectory( inery-blocklog )
